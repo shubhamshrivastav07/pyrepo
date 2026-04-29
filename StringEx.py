@@ -73,7 +73,7 @@ scape sequence
 # print(text)
 
 
-text="this is my content"
+# text="this is my content"
 
 
 # print(text[4:])
@@ -114,9 +114,9 @@ text="this is my content"
 # print(text.startswith("https://www."))
 # print(txt.startswith("https://www."))
 
-email="raj@gmail.com"
+# email="raj@gmail.com"
 
-print(email.endswith("gmail.com"))
+# print(email.endswith("gmail.com"))
 
 # text="  raj   "
 
@@ -144,3 +144,73 @@ print(email.endswith("gmail.com"))
 
 # text="my name {name} and age {age}"
 # print(text.format(age=23,name="raj"))
+
+
+
+"""
+
+3:20
+
+count
+for loop
+
+a-4
+g-4
+c-4
+"""
+text="Abgkddilhgnishgvljshinaghlkbgilablb" #1 assin
+num=len(text) # length of String 
+newstr="" # new string for unique character
+# for x in range(num):  # run text length 34
+#     if text[x] not in newstr : # conditioncheck character not in new string
+#         newstr+=text[x]
+    
+# print(newstr)    
+# for y in newstr:
+#     res=text.count(y)
+#     print(f"{y} - {res}")
+
+
+
+
+# text="raj mohan"
+
+# print(text.replace("mohan","sharma"))
+
+# text="Mr. Sahu Ji"
+# print(text.removeprefix("Mr."))
+# print(text.removesuffix("Ji"))
+
+
+# print(" - ".join(["Raj is a ","software Engineer his salary","39999"]) )
+
+
+
+text="In today’s fast-paced digital world, technology plays a crucial role in shaping how businesses operate and grow. From small startups to large enterprises, adopting modern tools and strategies has become essential for staying competitive. One of the key drivers of success is the ability to adapt to changing trends and continuously improve processes.Digital transformation is no longer an option but a necessity. Businesses are leveraging technologies like cloud computing, artificial intelligence, and data analytics to enhance productivity and deliver better customer experiences. These innovations help organizations make smarter decisions, reduce costs, and streamline operations.Another important aspect is online presence. A well-designed website, active social media engagement, and effective digital marketing strategies can significantly impact brand visibility. Search engine optimization (SEO) ensures that businesses reach the right audience at the right time, increasing traffic and potential conversions.Learning new skills is equally important in this evolving landscape. Professionals are constantly upgrading their knowledge in areas like programming, data science, and machine learning to stay relevant. Platforms offering industry-focused courses have made it easier than ever to gain practical knowledge and hands-on experience.Moreover, collaboration and communication tools have transformed the workplace. Remote work has become more efficient, allowing teams to connect and collaborate from anywhere in the world. This flexibility not only improves work-life balance but also boosts overall productivity.In conclusion, embracing technology and continuous learning are key factors for growth in the modern era. Whether you are a business owner or a professional, staying updated with the latest trends and tools will help you achieve long-term success and remain ahead in the competitive market.I prefer this response ChatGPT"
+# print(text)
+# print(text.split("."))
+# for x in text.split("."):
+#     print(x)
+
+
+# for x in text.splitlines():
+#     print(x)
+
+# text="SwMg"
+# print(text.swapcase())
+
+
+"""
+-> 
+list
+tuple
+dict
+set
+frozenset
+
+
+
+"""
+
+
+
