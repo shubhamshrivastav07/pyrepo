@@ -42,18 +42,18 @@ print(data[::-1])not perform
 
 # method
 
-udata=dict()
+# udata=dict()
 
-udata.update({"fname":"raj"})
-udata.update({"lname":"sharma"})
-udata.update({"age":30})
-udata.update({"address":"indore"})
+# udata.update({"fname":"raj"})
+# udata.update({"lname":"sharma"})
+# udata.update({"age":30})
+# udata.update({"address":"indore"})
 # print(udata)
 """
 key are same  update value of key
 key are different both are  update
 """
-udata.update({"age":98})
+# udata.update({"age":98})
 # print(udata)
 
 # udata.clear() # cleare dict data  all record clean
@@ -67,7 +67,13 @@ udata.update({"age":98})
 # print(udata.values())
 # print(udata.popitem())
 # print(udata)
-print(udata.pop("lname"))
-print(udata)
+# print(udata.pop("lname"))
+# print(udata)
+
+
+list=["fname","lname","email"]
+newdict=dict.fromkeys(list,"")
+# print(newdict)
+
 
 
