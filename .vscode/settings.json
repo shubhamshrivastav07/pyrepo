@@ -1,0 +1,15 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": "css",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip",
+            "workspace": "feb"
+        },
+        {
+            "path": ".",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}
