@@ -71,9 +71,16 @@ key are different both are  update
 # print(udata)
 
 
-list=["fname","lname","email"]
-newdict=dict.fromkeys(list,"")
+# list=["fname","lname","email"]
+# newdict=dict.fromkeys(list,"")
+# # print(newdict)
+
+# newdict.setdefault("status","Active")
 # print(newdict)
+
+
+
+
 
 
 
