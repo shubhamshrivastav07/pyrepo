@@ -80,7 +80,19 @@ key are different both are  update
 
 
 
+email="rajgmail@yo.com"
+d=["gmail","yahoo","microsoft"]
 
 
+if email.find("gmail")!=-1 or email.find("yahoo")!=-1  :
+    print("valid")
+else:
+    print("invalid")
 
+
+# data= email.split("@")[1].split(".")[0]
+# if data in d:
+#     print("Valid")
+# else:
+#     print("false")
 
