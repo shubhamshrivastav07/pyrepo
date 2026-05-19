@@ -139,12 +139,117 @@ return with  args
 # default value
 
 
-def info(fname=None,age=None,address="Indore"):
-    print(f"firstName : {fname}\nage : {age}\naddress : {address}")
-
+# def info(fname=None,age=None,address="Indore"):
+#     print(f"firstName : {fname}\nage : {age}\naddress : {address}")
+    
 # position base
 # info("shubham",23)
 # info(23,"amit","ujjain")
 # info(age=23,address="ujjian" ,fname="mohan")#key and value pair
 
 # advance function type pending 
+
+
+
+
+
+# def f1(val):
+#     print(val)
+    
+
+# f1(1)
+
+# f1(21,31)
+
+
+
+# def f1(*args):
+#     print(args)
+    
+    
+# f1(21)
+# f1(21,34,34)
+
+
+# def f1(**kwargs):
+#     print(kwargs)
+    
+# f1(fname="raj",lname="sharma",age=23,email="raj@gmail.com",address="indore")
+
+
+
+
+# def addTwoValue(s):
+      
+
+
+
+"""
+Lambda function is a function that have no name which is 
+used to perform single line operations
+lambda is a predefine keyword that is used to create 
+function 
+
+"""
+
+# res = lambda x:x*x
+# res = lambda x:x+x
+
+# print(res(38))
+
+
+"""
+recursion function
+
+a function that call it self is know recursion function
+
+def fun():
+    print()
+    fun()
+
+fun()
+
+
+"""
+
+# def fun1(val):
+#     print(f"call {val}")
+#     if val!=0:
+#         val-=1
+#         fun1(val)
+# fun1(5)
+# fct=1
+# def fact(val):
+#     global fct 
+#     print(fct) 
+#     if val>0:
+#         fct=fct*val
+#         val-=1
+#         fact(val)
+
+# fact(5)
+
+
+# 4 basic
+# 2
+# 1
+# 1
+
+# call back funcion
+
+
+
+"""
+call back function is a cuntion that is call by another function
+
+"""
+
+
+
+def f1(val):
+    print(val)
+
+def callfun(functionName):
+     functionName("mycalling")
+    
+callfun(f1)
