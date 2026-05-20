@@ -246,10 +246,115 @@ call back function is a cuntion that is call by another function
 
 
 
-def f1(val):
-    print(val)
+# def f1(val):
+#     print(val)
 
-def callfun(functionName):
-     functionName("mycalling")
+# def callfun(functionName):
+#      functionName("mycalling")
     
-callfun(f1)
+# callfun(f1)
+
+
+
+# high order function
+""""""
+# def add(a,b):
+#     return a+b
+
+# def mul(a,b):
+#     return a*b
+
+# def div(a,b):
+#     return a/b
+
+# def operations(val1,val2 ,function):       
+#        return function(val1,val2)
+
+# res= operations(3,4,div)
+# print(res)
+
+
+"""
+
+filter -> condition base validation   condition a>3 ,b<4 a==3
+map  -> new data update dict     [2,3,4] *2 -> [4,6,8]
+reduce -> data value reduce karta ->[2,4] -> 2*4 =8
+
+
+"""
+
+# res=lambda x:x*x
+# print(res(3))
+
+
+# numnber=[2,5,9,7] #list - > element 4  2(0),5(1),9(2),7(3)
+
+# res=list(map(lambda a:a-3 ,  numnber))
+# print(res)
+
+
+# num=[1,2,3,4,5,6,7,8]
+# res =list(filter(lambda x:x%2==0 ,num))
+# print(res)
+
+
+# 11 21 31 41 
+
+# num=list(range(1,101))
+# res =list(filter(lambda x:x%10==1,num))
+# print(res)
+
+from functools import reduce 
+
+# num=[13,23,42,51]
+# res =reduce(lambda x,y :x+y, num)
+# print(res)
+
+
+# num1,num2,num3,num4=[13,23,42,51]
+# print(num1,num2)
+
+
+"""
+decorator(Like anotation)
+
+@check_activity -> that is a function is work 
+def function():   -> sub function execution
+    print("")
+
+
+decorator
+
+logic building or session and aop
+
+
+"""
+
+# @check_activity
+# def function():
+#     print("")
+
+
+
+
+
+
+# def call(func):
+#     def wrapper(*args, **kwargs):
+#         print("before sum logic",kwargs)
+#         func()
+#         print("after sum logic")
+#     return wrapper;
+
+# @call
+# def sum():
+#     print("msg")
+
+# sum()
+
+
+@call
+def sum(a=0,b=0):
+    print(a,b)
+    
+sum(a=3,b=5)
