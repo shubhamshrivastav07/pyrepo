@@ -353,8 +353,77 @@ logic building or session and aop
 # sum()
 
 
-@call
-def sum(a=0,b=0):
-    print(a,b)
+# @call
+# def sum(a=0,b=0):
+#     print(a,b)
     
-sum(a=3,b=5)
+# sum(a=3,b=5)
+
+
+"""
+Decorator -> special function  another  activity controle
+AOP
+    before calling
+    after calling
+    
+
+
+main()
+
+@main
+a():
+
+
+high order 
+    
+    retucsion function
+
+
+"""
+
+
+
+
+# @main
+# def funa():
+#     print("hello")
+
+# funa()
+
+
+
+# def main(func):
+#     def wrapper(*args,**kwargs):
+#         if kwargs["num"] >30:
+#             func(kwargs) 
+#     return wrapper
+
+# @main
+# def data(num=0):
+#     print(num)
+
+# listnum=[12,30,24,73,36,42,12,34]
+# for x in listnum:
+#     data(num=x)
+    
+    
+setv=set()
+    
+text="oqncoiewfcaweifockaoiefnsateoiav"
+def main(func):
+    def wrapper(*args,**kwargs):
+        if kwargs["char"] in "aeiou":
+            func(kwargs["char"]) 
+    return wrapper
+
+
+@main
+def checkv(char):
+  
+    setv.add(char)
+
+
+for x in text:
+    checkv(char=x)
+
+print(setv)
