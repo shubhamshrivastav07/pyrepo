@@ -407,23 +407,47 @@ high order
 #     data(num=x)
     
     
-setv=set()
+# setv=set()
     
-text="oqncoiewfcaweifockaoiefnsateoiav"
-def main(func):
-    def wrapper(*args,**kwargs):
-        if kwargs["char"] in "aeiou":
-            func(kwargs["char"]) 
-    return wrapper
+# text="oqncoiewfcaweifockaoiefnsateoiav"
+# def main(func):
+#     def wrapper(*args,**kwargs):
+#         if kwargs["char"] in "aeiou":
+#             func(kwargs["char"]) 
+#     return wrapper
 
 
-@main
-def checkv(char):
+# @main
+# def checkv(char):
   
-    setv.add(char)
+#     setv.add(char)
 
 
-for x in text:
-    checkv(char=x)
+# for x in text:
+#     checkv(char=x)
 
-print(setv)
+# print(setv)
+
+# def facto(func):
+#     def wrapper(*args, **kwargs):
+
+#         func(*args, **kwargs)
+
+#         def fact(val):
+#             if val == 0 or val == 1:
+#                 return 1
+#             return val * fact(val - 1)
+
+#         for x in args:
+#             print(f"Factorial of {x} = {fact(x)}")
+
+#     return wrapper
+
+
+# @facto
+# def number(*val):
+#     print("Calculating factorials...")
+
+
+# number(5, 7,6)    
+
