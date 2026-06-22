@@ -1,4 +1,4 @@
-from OperationsData import save, update,show
+from OperationsData import save, update,show,delete,searchUserById
 
 
 def AppRunner():
@@ -8,6 +8,8 @@ def AppRunner():
         case 1: save()
         case 2: update()
         case 3: show()
+        case 4: delete()
+        case 5: searchUserById()
         case _:print("No Option available")
     AppRunner()
 

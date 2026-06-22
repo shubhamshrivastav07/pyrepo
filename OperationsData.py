@@ -38,7 +38,25 @@ def show():
 
 #delete User
 def delete():
-    print()
+    email= input("Enter Your Email ")
+    if(email !=None or len(email)>0):
+         for data in userdataList:
+            if email == data.get("email"):
+                idx= userdataList.index(data)
+                userdataList.pop(idx)
+                print("Data Deleted")
+            else:
+                print("User Not Found")
+    else:
+        print("Invalid Email")
+
+
 #user data unique By Id for 
 def searchUserById():
-    print()
+    email= input("Enter Your Email ")
+    if(email !=None or len(email)>0):
+         for data in userdataList:
+            if email == data.get("email"):
+                print(data)
+
+    
