@@ -2,12 +2,9 @@
 
 
 class User():
-
-
     fname=""
     lname=""
-
-
+    
     def setFname(self,fname):
         self.fname=fname
     def getFname(self):

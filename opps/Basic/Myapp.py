@@ -1,7 +1,7 @@
 
 
-from Beans import User
-from Data import Data
+from opps.Basic.Beans import User
+from opps.Basic.Data import Data
 
 class  MyApp():
 
