@@ -6,5 +6,5 @@ class DbConfig(Base):
 
 
     def dbConfig(self):
-
+        super().config()
         print("Db Config")
